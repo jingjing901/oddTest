@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="public/javascript/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>购物车</title>
+    <script src="public/javascript/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/style/common.css">
+    <link rel="stylesheet" type="text/css" href="public/style/shoppingCar.css">
+</head>
+<body>
+<form>
+    <div class="bottom">
+        <header>
+            <span class="back_img"><a href="index.html"><img src="public/image/back.png"></a></span>
+            <span class="text-center f32">购物车</span>
+        </header>
+            <div class="good" name="goodLine">
+                <div class="checkShop" name="divName">
+                    <button type="button" class="checkShop"><img class="checkShopImg" src="public/image/checked.png"></button>
+                </div>
+                   <div class="logoImg"><img src="public/image/"></div>
+                   <div class="goodContent">
+                       <span>红星二锅头500ML/听</span>
+                       <p class="price">￥27.00</p>
+                       <table>
+                           <tr>
+                               <td><button type="button">-</button></td>
+                               <td class="price">2</td>
+                               <td><button type="button">+</button></td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="goodBtn">
+                       <button class="delelt" type="button" name="deleatGood">删除</button><br>
+                   </div>
+            </div>
+            <div class="good" name="goodLine">
+                <div class="checkShop" name="divName">
+                    <button type="button" class="checkShop"><img class="checkShopImg" src="public/image/checked.png"></button>
+                </div>
+                <div class="logoImg"><img src="public/image/"></div>
+                <div class="goodContent">
+                    <span>红星/听</span>
+                    <p class="price">￥27.00</p>
+                    <table>
+                        <tr>
+                            <td><button type="button">-</button></td>
+                            <td class="price">2</td>
+                            <td><button type="button">+</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="goodBtn">
+                    <button class="delelt" type="button" name="deleatGood">删除</button><br>
+                </div>
+            </div>
+        <div class="good" name="goodLine">
+            <div class="checkShop" name="divName">
+                <button type="button" class="checkShop"><img class="checkShopImg" src="public/image/checked.png"></button>
+            </div>
+            <div class="logoImg"><img src="public/image/"></div>
+            <div class="goodContent">
+                <span>红星00ML/听</span>
+                <p class="price">￥27.00</p>
+                <table>
+                    <tr>
+                        <td><button type="button">-</button></td>
+                        <td class="price">2</td>
+                        <td><button type="button">+</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="goodBtn">
+                <button class="delelt" type="button" name="deleatGood">删除</button><br>
+            </div>
+        </div>
+        <footer>
+                <span class="addMoy">合计：</span><span class="money">￥54.00</span><span class="carriage">（不含运费）</span>
+                <a class="goto" href="agreement.html"><button name="gotoPay" class="gotoPay" type="button">去结算</button></a>
+            </footer>
+    </div>
+    <div class="aret1">
+        <div class="alertLogin">
+            <button type="button" class="closeBtn" id="close"><img class="closeImg" src="public/image/close.png"></button>
+            <div class="textContent">
+                <span class="closeText">亲。。。</span><br/>
+                <div class="gap"></div>
+                <span class="closeText">您确定删除此商品吗？</span><br/>
+                <div class="isCheck">
+                    <button id="confirm" type="button" class="btn">确定</button>
+                    <button id="cancle" type="button" class="btn">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aret2">
+        <div class="alertLogin">
+            <button type="button" class="closeBtn"><img class="closeImg" src="public/image/close.png"></button>
+            <div class="textContent alertLoginCenter">
+                <span class="closeText">亲。。。</span><br/>
+                <div class="gap"></div>
+                <span class="closeText">请勿重复提交订单!</span><br/>
+                <div class="isCheck">
+                    <button type="button" class="btn btnCenter">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="public/javascript/shoppingCar.js"></script>
+</body>
+</html>

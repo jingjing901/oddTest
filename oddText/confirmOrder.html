@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="public/javascript/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>确认订单</title>
+    <script src="public/javascript/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/style/common.css">
+    <link rel="stylesheet" type="text/css" href="public/style/confirmOrder.css">
+</head>
+<body>
+<form>
+    <div class="bottom" id="allPage">
+        <header>
+            <span class="back_img"><a href="index.html"><img src="public/image/back.png"></a></span>
+            <span class="text-center f32">确认订单</span>
+        </header>
+        <form>
+            <div class="chargeList">
+                <p class="title">费用清单</p>
+                <ul class="list">
+                    <li><span class="name">中南海香烟</span><span class="ride">x</span><span class="number" id="number">1</span><span class="money">￥</span><span class="price">100</span></li>
+                    <li class="odd"><span class="name">试抽钻石香烟</span><span class="ride">x</span><span class="number">1</span><span class="money">￥</span><span class="price">121</span></li>
+                </ul>
+                <span class="total"><span>商品总额：</span><span class="allMoney">￥</span><span class="totalMoney">101</span></span>
+                <div class="gap"></div>
+            </div>
+            <div class="participatActivity">
+                <p class="title">参与活动</p>
+                <ul class="list">
+                    <li><span>试抽钻石香烟活动</span><span class="checkImg"><button type="button" id="activities" class="checkBtn"><img src="public/image/checked.png"></button></span></li>
+                </ul>
+            </div>
+            <div class="participatActivity">
+                <p class="title">选择支付方式</p>
+                <ul class="list">
+                    <li><span>支付宝支付</span><span class="checkImg"><button id="alipayBtn" class="checkBtn"><img id="alipay" src="public/image/checked.png"></button></span></li>
+                    <li><span>微信支付</span><span class="checkImg"><button id="wechatBtn" class="checkBtn"><img id="wechat" src="public/image/nochecked.png"></button></span></li>
+                </ul>
+            </div>
+            <div class="participatActivity">
+                <p class="title">选择烟店</p>
+                <ul class="list">
+                    <button type="button" class="checkShop" id="checkShop">
+                        <li><span>国贸烟店</span>
+                        <span class="checkImg"><img src="public/image/next.png"></span>
+                        </li>
+                    </button>
+                </ul>
+            </div>
+            <input id="settlement" class="settlement" type="submit" value="立即结算">
+            <div class="endTel">
+                <span class="telImg"><img src="public/image/tel.png"></span>
+                <span class="telNum">13532323211</span>
+                <span><button class="quit">退出登录</button></span>
+            </div>
+        </form>
+    </div>
+    <div class="aret">
+        <div class="alertLogin">
+            <button class="closeBtn"><img class="closeImg" src="public/image/close.png"></button>
+            <div class="alertcheckshop">
+                <ul>
+                    <!--<li><button><img src="public/image/checked.png"><span>店铺1eefdsfs店铺</span></button></li>-->
+                    <li><button><img src="public/image/checked.png"><span>店铺1eefdsfs</span></button></li>
+                    <li><button><img src="public/image/checked.png"><span>店铺1eefdsfs店铺1e</span></button></li>
+                    <li><button><img src="public/image/checked.png"><span>店铺1eefdsfs </span></button></li>
+                    <li><button><img src="public/image/checked.png"><span>店铺1eefdsfs </span></button></li>
+                </ul>
+            </div>
+                <input id="ckeckOk" type="type" value="确定" class="confirm">
+        </div>
+    </div>
+    <div class="aret1">
+        <div class="alertLogin">
+            <button class="closeBtn"><img class="closeImg" src="public/image/close.png"></button>
+            <div class="textContent">
+                <span class="closeText">亲。。。</span><br/>
+                <div class="gap"></div>
+                <span class="closeText">您购买的香烟数量没有达</span><br/>
+                <div class="gap"></div>
+                <span class="closeText">到活动要求哦！</span>
+            </div>
+        </div>
+    </div>
+    <div class="aret2">
+        <div class="alertLogin">
+            <button class="closeBtn"><img class="closeImg" src="public/image/close.png"></button>
+            <div class="textContent">
+                <span class="closeText">亲。。。</span><br/>
+                <div class="gap"></div>
+                <span class="closeText1">您购买"中南海香烟"没有在此店铺上架只能结算"中华香烟"</span><br/>
+              </span>
+            </div>
+            <div class="isCheck">
+                <button id="confirm" type="button" class="btn">继续结算</button>
+                <button id="cancle" type="button" class="btn">重新选购</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="public/javascript/confirmOrder.js"></script>
+</body>
+</html>

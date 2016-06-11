@@ -1,0 +1,21 @@
+html,body{width:750px;margin:auto 0px; padding: 0px;font-family: "微软雅黑", Helvetica, sans-serif;overflow-x:hidden;}
+header{
+    width: 750px;
+    background: #ff2f2f;
+    color: #ffffff;
+    height: 88px;
+    line-height: 88px;
+    margin: auto 0;
+    padding: 0;
+    /*text-align: center;*/
+}
+.back_img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.f32{
+    font-size: 32px;
+    margin-left: 300px;
+}
+

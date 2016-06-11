@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="public/javascript/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>商品详情</title>
+    <link rel="stylesheet" type="text/css" href="public/style/common.css">
+    <link rel="stylesheet" type="text/css" href="public/style/lineItem.css">
+    <link rel="stylesheet" type="text/css" href="public/style/slider.css">
+</head>
+<body>
+<form>
+        <header>
+            <span class="back_img"><a href="index.html"><img src="public/image/back.png"></a></span>
+            <span class="text-center f32">商品详情</span>
+        </header>
+        <div class="line_banner">
+            <!--<div id="banner_tabs" class="flexslider">-->
+            <!--<ul class="slides">-->
+            <!--<li>-->
+            <!--<a title="" target="_blank" href="#">-->
+            <!--<img src="public/image/banner1.jpg">-->
+            <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<a title="" href="#">-->
+            <!--<img src="public/image/banner2.jpg">-->
+            <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<a title="" href="#">-->
+            <!--<img  src="public/image/banner4.jpg" >-->
+            <!--</a>-->
+            <!--</li>-->
+            <!--</ul>-->
+            <!--<ul class="flex-direction-nav">-->
+            <!--<li><a class="flex-prev" href="javascript:;">Previous</a></li>-->
+            <!--<li><a class="flex-next" href="javascript:;">Next</a></li>-->
+            <!--</ul>-->
+            <!--<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">-->
+            <!--<li><a>1</a></li>-->
+            <!--<li><a>2</a></li>-->
+            <!--<li><a>2</a></li>-->
+            <!--</ol>-->
+            <!--</div>-->
+            <img src="public/image/1.jpg">
+        </div>
+        <div class="goodInf">
+            <span class="goodName">【中南海】中南海（金8mg）</span><br/>
+            <span class="goodPrice">￥10.00</span><br/>
+            <span class="goodNuN">购买数量</span>
+            <span class="goodAdd">
+        <table>
+            <tr>
+                <td>
+                    <button type="button" id="minus" class="opNum">-</button>
+                </td>
+                <td><span id="num" class="opNum num">2</span></td>
+                <td>
+                    <button type="button" id="add" class="opNum">+</button>
+                </td>
+            </tr>
+        </table>
+    </span><br/>
+            <span class="description">商品描述</span>
+        </div>
+        <div>
+            <p class="textDesp">暂无商品描述</p>
+        </div>
+        <footer>
+            <div class="footerCar">
+                <span class="goodCartImg"><a href=""><img src="public/image/shoppingCart.png"></a></span>
+
+                <div class="goodNum"><p class="goodNumText">20</p></div>
+                <input id="addCar" class="addCart" value="添加购物车">
+                <input id="buyNow" class="addCart" value="立即购买">
+            </div>
+            <div class="endTel">
+                <span class="telImg"><img src="public/image/tel.png"></span>
+                <span class="telNum">13532323211</span>
+                <span><button class="quit">退出登录</button></span>
+            </div>
+        </footer>
+
+</form>
+<div class="bottomGop"></div>
+<script src="public/javascript/jquery-1.8.3.min.js"></script>
+<script src="public/javascript/slider.js"></script>
+<script src="public/javascript/lineItem.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'active'
+        });
+        $('#banner_tabs .flex-prev').click(function () {
+            bannerSlider.prev()
+        });
+        $('#banner_tabs .flex-next').click(function () {
+            bannerSlider.next()
+        });
+    })
+</script>
+</body>
+</html>

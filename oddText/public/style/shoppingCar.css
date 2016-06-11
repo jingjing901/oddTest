@@ -1,0 +1,165 @@
+header{
+    margin-bottom: 22px;
+}
+.good{
+    margin-top: 46px;
+    margin-left: 35px;
+    height: 200px;
+    border-bottom: 2px dashed #ecdfdf;
+    width: 680px;
+}
+.logoImg img{
+    width: 150px;
+    height: 150px;
+    border: 1px #c8c8c8 solid;
+    margin-bottom: 46px;
+    border-radius: 10px;
+    margin-right: 33px;
+    float: left;
+}
+.goodContent{
+    float: left;
+    width: 250px;
+    color: #666666;
+    font-size: 22px;
+    margin-top: 7px;
+    letter-spacing: 2px;
+}
+.goodContent p{
+    line-height: 14px;
+}
+.price{
+    color: #ff2f2f;
+    font-size: 25px;
+}
+table{
+    margin-top: 25px;
+}
+table tr td{
+    border: 1px solid #666666;
+    width: 68px;
+    height: 48px;
+    text-align: center;
+}
+table tr button{
+    width: 68px;
+    height: 48px;
+    background: transparent;
+    border: none;
+    font-size: 36px;
+    color: #5c5c5c;
+}
+.checkShop{
+    float: left;
+    margin-top:30px;
+    margin-right: 14px;
+}
+.checkShop button{
+    background: transparent;
+    border: none;
+}
+.delelt{
+    background: transparent;
+    border: 1px #ff2f2f solid;
+    border-radius: 10px;
+    width: 90px;
+    height: 45px;
+    margin-bottom: 40px;
+    color: #ff2f2f;
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-top: 12px;
+}
+footer{
+    clear: both;
+    position: fixed;
+    width: 750px;
+    height: 100px;
+    bottom: 0px;
+    opacity: 0.95;
+    background: #fff5f5;
+    line-height: 100px;
+}
+.addMoy{
+    font-size: 32px;
+    color: #989;
+    margin-left: 81px;
+    letter-spacing: 3px;
+}
+.money{
+    font-size: 32px;
+    color: #ff2f2f;
+    letter-spacing: 3px;
+}
+.carriage{
+    font-size: 20px;
+    color: #989898;
+    letter-spacing: 3px;
+}
+.gotoPay{
+     border: none;
+     background: #ff2f2f;
+     color: #ffffff;
+     width: 220px;
+     height: 100px;
+     letter-spacing: 4px;
+     font-size: 34px;
+     float: right;
+ }
+.aret,.aret1,.aret2{
+    width: 750px;
+    height: 1200px;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.alertLogin{
+    position: absolute;
+    top: 195px;
+    margin-left: 100px;
+    width: 550px;
+    height: 600px;
+    background: #fffef4;
+    box-shadow:3px 3px 3px #f2e2e2;
+}
+.alertLoginCenter{
+    margin-left: 80px;
+}
+.closeBtn{
+    background: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 470px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+.closeText{
+    margin-left: 62px;
+    font-size: 30px;
+    color: #723636;
+    letter-spacing: 5px;
+}
+a{
+    text-decoration: none;
+    color: #868686;
+}
+.gap{
+    height: 45px;
+}
+.btn{
+    width: 200px;
+    height: 60px ;
+    background: #ff2f2f;
+    border-radius: 10px;
+    margin-right: 27px;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+.isCheck{
+    margin-left: 62px;
+    margin-top: 144px;
+}

@@ -1,0 +1,217 @@
+.chargeList,.participatActivity{
+    width: 675px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-right: 40px;
+    border-bottom: 1px #e5cccc dashed;
+    color: #919191;
+    letter-spacing: 2px;
+    font-size: 24px;
+    /*background: firebrick;*/
+}
+.title{
+    color: #ff2f2f;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.list{
+    margin-left: 33px;
+    margin-top: 35px;
+}
+.list li{
+    margin-bottom: 25px;
+    list-style: none;
+}
+.ride{
+    position: absolute;
+    left: 400px;
+}
+.number{
+    position: absolute;
+    left: 420px;
+}
+.money{
+    position: absolute;
+    left: 600px;
+}
+.price{
+    position: absolute;
+    left: 620px;
+}
+.total{
+    margin-left: 33px;
+}
+.gap{
+    height: 30px;
+}
+.allMoney{
+    position: absolute;
+    left: 600px;
+    color: #ff2f2f;
+}
+.totalMoney{
+    position: absolute;
+    left: 620px;
+    color: #ff2f2f;
+}
+.shopName{
+    float: left;
+    margin-right: 600px;
+}
+.checkImg{
+    position: absolute;
+    left: 630px;
+}
+.checkBtn{
+    background: transparent;
+    border: none;
+}
+.settlement{
+    width: 650px;
+    height: 70px;
+    border-radius: 20px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+    margin-left: 50px;
+    background: #ff2f2f;
+    border: none;
+    margin-top: 56px;
+}
+.aret,.aret1,.aret2{
+    width: 750px;
+    height: 1200px;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.alertLogin{
+    position: absolute;
+    top: 195px;
+    margin-left: 100px;
+    width: 550px;
+    height: 600px;
+    background: #fffef4;
+    box-shadow:3px 3px 3px #f2e2e2;
+}
+.closeBtn{
+    margin-left: 470px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.checkShop{
+    width: 675px;
+    background: transparent;
+    border: none;
+    color: #919191;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: left;
+}
+.alertcheckshop{
+    height: 210px;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
+    position: absolute;
+    top: 175px;
+}
+.alertcheckshop img{
+     position: absolute;
+     left: 100px;
+ }
+.alertcheckshop span{
+    width: 380px;
+    text-align: left;
+    position: static;
+}
+.alertLogin li{
+    width: 400px;
+    list-style: none;
+    margin-left: 85px;
+    color: #723636;
+    font-size: 28px;
+    text-align: left;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.alertLogin span{
+    margin-left: 30px;
+    text-align: left;
+}
+.alertLogin .closeBtn{
+    background: transparent;
+    border: none;
+    /*float: left;*/
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.confirm{
+    width: 450px;
+    height: 60px;
+    background: #ff2f2f;
+    color: #ffffff;
+    margin-left: 50px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    margin-top: 400px;
+}
+.endTel{
+    margin-left: 285px;
+    margin-top:50px;
+}
+.telImg{
+    float: left;
+}
+.telNum{
+    margin-left: 18px;
+    margin-right: 70px;
+    color: #868686;
+    font-size: 20px;
+}
+.quit{
+    color: #ff2f2f;
+    font-size: 22px;
+    background: transparent;
+    border: none;
+    line-height: 40px;
+}
+.textContent{
+    position: absolute;
+    top: 185px;
+    margin-left: 30px;
+}
+.gap{
+    height: 45px;
+}
+.closeText,.closeText1{
+    margin-left: 62px;
+    font-size: 26px;
+    color: #723636;
+    letter-spacing: 5px;
+}
+.closeText1{
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #868686;
+}
+.btn{
+    width: 200px;
+    height: 60px ;
+    background: #ff2f2f;
+    border-radius: 10px;
+    margin-right: 27px;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+.isCheck{
+    margin-left: 62px;
+    margin-top: 400px;
+}
